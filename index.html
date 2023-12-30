@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet"  href="style.css">
+ 
+</head>
+
+<body>
+  <script  type="text/javascript src="script.js"></script>
+  <section class= "Calculator"> 
+  <form>
+    <div class="display">
+    <input type ="text"  name="display"> 
+    </div>
+  
+  <div class ="buttons">
+    
+<button type ="button" class="btn btn-yellow" onclick="display.value +='*'" > *
+</button>
+<button type="button" class="btn btn-yellow" onclick="display.value +='/'"  > /
+ </button>
+<button type="button" class="btn btn-yellow" onclick="display.value +='+' "/>+
+</button>
+<button type="button" class="btn btn-yellow" onclick="display.value +='-' " />-
+ </button>
+ <button type="button"  class="btn btn-grey" onclick="display.value +='9' "> 9
+ </button>
+<button type="button" class="btn btn-grey"  onclick="display.value +='8' " />8
+ </button>
+ <button type="button" class="btn btn-grey" onclick="display.value +='7' "> 7
+ </button>
+<button type="button" class="btn btn-grey"  onclick="display.value +='6' " > 6
+ </button>
+<button type="button"class="btn btn-grey" onclick="display.value +='5' "> 5
+ </button>
+<button type="button" class="btn btn-grey" onclick="display.value +='4' "> 4
+ </button>
+<button type="button" class="btn btn-grey" onclick="display.value +='3' "> 3
+ </button>
+<button type="button" class="btn btn-grey" onclick="display.value +='1'"> 1
+ </button>
+<button type="button" class="btn btn-grey" onclick="display.value +='0' "> 0
+    </button>
+<button type="button" class="btn btn-grey" onclick="display.value +='.' ">.
+    </button>
+<button type="button" onclick="display.value = display.value.toString().slice(0,-1)" class="btn btn-grey" >DE
+    </button>
+  <button type="button" onclick="display.value ='' " class="btn btn-clear" >AC
+    </button>
+<button type="button" onclick="display.value = eval(display.value)"   class="btn btn-equal"/> =
+   
+</button>
+  
+</div>
+  </form>
+    </section>
+
+  <script></script>
+ </body>
+</html>
